@@ -1,0 +1,42 @@
+[font]
+size = 11.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[window.dimensions]
+columns = 82
+lines = 26
+
+[window.padding]
+x = 0
+y = 0
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "Buttonless"
+opacity = 0.989
+blur = true
+
+[keyboard]
