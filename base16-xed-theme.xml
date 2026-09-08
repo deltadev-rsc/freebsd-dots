@@ -1,0 +1,106 @@
+<style-scheme id="base16-default-dark" _name="Base16 Default Dark" version="1.0">
+    <author>Deltaqxq</author>
+    <_description>Base16 Default Dark theme for Xed</_description>
+
+    <!-- Base16 Default Dark -->
+    <color name="base00" value="#181818"/>
+    <color name="base01" value="#282828"/>
+    <color name="base02" value="#383838"/>
+    <color name="base03" value="#585858"/>
+    <color name="base04" value="#b8b8b8"/>
+    <color name="base05" value="#d8d8d8"/>
+    <color name="base06" value="#e8e8e8"/>
+    <color name="base07" value="#f8f8f8"/>
+
+    <color name="base08" value="#ab4642"/>
+    <color name="base09" value="#dc9656"/>
+    <color name="base0A" value="#f7ca88"/>
+    <color name="base0B" value="#a1b56c"/>
+    <color name="base0C" value="#86c1b9"/>
+    <color name="base0D" value="#7cafc2"/>
+    <color name="base0E" value="#ba8baf"/>
+    <color name="base0F" value="#a16946"/>
+
+    <!-- Global Settings -->
+    <style name="text"                foreground="base05" background="base00"/>
+    <style name="selection"           foreground="base07" background="base02"/>
+    <style name="selection-unfocused" foreground="base05" background="base03"/>
+    <style name="cursor"              foreground="base05"/>
+    <style name="secondary-cursor"    foreground="base05"/>
+    <style name="current-line"        background="base01"/>
+    <style name="line-numbers"        foreground="base03" background="base00"/>
+    <style name="background-pattern"   background="base01"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"       foreground="base0E"/>
+    <style name="bracket-mismatch"    foreground="base08" background="base00"/>
+
+    <!-- Right Margin -->
+    <style name="right-margin"        foreground="base05" background="base01"/>
+
+    <!-- Search Matching -->
+    <style name="search-match"        foreground="base00" background="base0C"/>
+
+    <!-- Comments -->
+    <style name="def:comment"             foreground="base03"/>
+    <style name="def:shebang"             foreground="base03" bold="true"/>
+    <style name="def:doc-comment-element" italic="true"/>
+
+    <!-- Constants and variables -->
+    <style name="def:constant"        foreground="base09"/>
+    <style name="def:string"          foreground="base0B"/>
+    <style name="def:special-char"    foreground="base0F"/>
+    <style name="def:special-constant" foreground="base09" bold="true"/>
+    <style name="def:number"          foreground="base09"/>
+    <style name="def:floating-point"  foreground="base09"/>
+    <style name="def:boolean"         foreground="base09"/>
+    <style name="def:keyword"         foreground="base0E" bold="true"/>
+    <style name="def:builtin"         foreground="base08" bold="true"/>
+    <style name="def:variable"        foreground="base08"/>
+
+    <!-- Identifiers -->
+    <style name="def:identifier"      foreground="base0D"/>
+
+    <!-- Statements -->
+    <style name="def:statement"       foreground="base09"/>
+
+    <!-- Types -->
+    <style name="def:type"            foreground="base0A"/>
+
+    <!-- Operators -->
+    <style name="def:operator"        foreground="base0C"/>
+
+    <!-- Markup -->
+    <style name="def:emphasis"             italic="true"/>
+    <style name="def:strong-emphasis"     foreground="base0A" bold="true"/>
+    <style name="def:inline-code"         foreground="base0B"/>
+    <style name="def:insertion"           underline="single"/>
+    <style name="def:deletion"            strikethrough="true"/>
+    <style name="def:link-text"           foreground="base0D"/>
+    <style name="def:link-symbol"         foreground="base0D" bold="true"/>
+    <style name="def:link-destination"    foreground="base0D"
+                                        italic="true"
+                                        underline="single"/>
+    <style name="def:heading"             foreground="base08" bold="true"/>
+    <style name="def:thematic-break"      foreground="base0B" bold="true"/>
+    <style name="def:preformatted-section" foreground="base0B"/>
+    <style name="def:list-marker"         foreground="base0C" bold="true"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor"    foreground="base0C"/>
+    <style name="def:error"           foreground="base08" bold="true"/>
+    <style name="def:warning"         background="base0A"/>
+    <style name="def:note"            foreground="base0E" bold="true"/>
+    <style name="def:net-address"     foreground="base0D"
+                                      italic="true"
+                                      underline="single"/>
+    <style name="def:underlined"      italic="true" underline="single"/>
+    <style name="def:function"        foreground="base0D"/>
+
+    <!-- Diff -->
+    <style name="diff:location"       foreground="base09"/>
+    <style name="diff:changed-line"   foreground="base0D"/>
+    <style name="diff:added-line"     foreground="base0B"/>
+    <style name="diff:removed-line"   foreground="base08"/>
+    <style name="diff:special-case"   foreground="base09"/>
+</style-scheme>
